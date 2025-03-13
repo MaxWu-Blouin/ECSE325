@@ -1,0 +1,15 @@
+--
+-- entity name: g16_DM74185 (replace “XX” by your group’s number)
+--
+-- Version 1.0
+-- Authors: Max Wu-Blouin
+-- Date: March 13, 2025 (enter the date of the latest edit to the file)
+
+library ieee; -- allows use of the std_logic_vector type
+use ieee.std_logic_1164.all;
+
+entity g16_DM74185 is
+	port( 	EDCBA: 	in std_logic_vector(4 downto 0);
+				Y: 		out std_logic_vector(5 downto 0) 
+		  );
+end g16_DM74185;
